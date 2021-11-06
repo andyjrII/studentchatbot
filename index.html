@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Student Information Chatbot</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Student Information Chatbot">
+	<meta name="keywords" content="computer, result, timetable, courses, lecturers, department">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->   
+	<link href="img/favicon.png" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.css"/>
+	<link rel="stylesheet" href="css/animate.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header section -->
+	<header class="header-section">
+		<div class="header-top">
+			<div class="container">
+				<div class="header-social">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-whatsapp"></i></a>
+				</div>
+				<div class="user-panel">
+					<a href="login.html"><i class="fa fa-lock"></i> Admin</a>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="container">
+				<a href="index.html" class="site-logo">
+					<img src="img/logo.png" alt="">
+				</a>
+				<div class="nav-switch">
+					<i class="fa fa-bars"></i>
+				</div>
+				<div class="site-logo1">
+					<img src="img/logo1.png" alt="">
+				</div>
+				<ul class="main-menu">
+					<li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+					<li><a href="about.html"><i class="fa fa-question"></i> About</a></li>
+					<li><a href="register.html"><i class="fa fa-pencil"></i> Register</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<!-- Header section end -->
+
+
+	<!-- Hero section -->
+	<section class="hero-section">
+		<div class="hero-slider owl-carousel">
+			<div class="hero-slide-item set-bg" data-setbg="img/slider-bg-1.jpg">
+				<div class="hs-text">
+					<h2 class="hs-title-1"><span>Department of Computer Science</span></h2>
+					<h2 class="hs-title-2"><span>DS Adegbenro ICT Polytechnic</span></h2>
+					<h2 class="hs-title-3"><span>Itori-Ewekoro, P.M.B 5028, Ogun State</span></h2>
+				</div>
+			</div>
+			<div class="hero-slide-item set-bg" data-setbg="img/slider-bg-2.jpg">
+				<div class="hs-text">
+					<h2 class="hs-title-1"><span>Department of Computer Science</span></h2>
+					<h2 class="hs-title-2"><span>DS Adegbenro ICT Polytechnic</span></h2>
+					<h2 class="hs-title-3"><span>Itori-Ewekoro, P.M.B 5028, Ogun State</span></h2>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+	<df-messenger
+	  chat-icon="https:&#x2F;&#x2F;cdn-icons.flaticon.com&#x2F;png&#x2F;512&#x2F;1533&#x2F;premium&#x2F;1533105.png?token=exp=1634293625~hmac=9de9a625ecabe15c4ba1c9786675b379"
+	  intent="WELCOME"
+	  chat-title="AndyBot"
+	  agent-id="be3b021f-2794-4fa5-9e94-e076c9f81bed"
+	  language-code="en"
+	></df-messenger>
+	<!-- Hero section end -->
+	
+	
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
